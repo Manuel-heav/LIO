@@ -1,0 +1,38 @@
+.login{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background: #ccc;
+}
+
+.login__container{
+    padding: 30px;
+    background: #fff;
+    border: 1px solid chocolate;
+    border-radius: 10px;
+}
+h1{
+    text-align: center;
+    color: chocolate
+}
+label, input{
+    display: block;
+    margin: auto;
+    margin-top: 10px;
+}
+
+input{
+    padding: 6px;
+}
+
+button{
+    width: 100%;
+    margin-top: 10px;
+    padding: 6px;
+    background-color: chocolate;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
