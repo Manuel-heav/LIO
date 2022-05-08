@@ -2,7 +2,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    height: 100vh;
+    height: 80vh;
 }
 
 .login__header{
@@ -18,12 +18,17 @@
     justify-content: space-between;
 }
 
+.smallBtn{
+    padding-left: 40px;
+    padding-right: 40px;
+    background: transparent;
+}
 
 .login__btn__container button{
     margin-left: 30px;
     font-size: 17px;
     background-color: var(--teritaryColor);
-    color: #fff;
+    color: var(--textColor);
     border: none;
     border-radius: 5px;
     cursor: pointer;
@@ -32,14 +37,15 @@
 .widerBtn{
     padding-left: 40px;
     padding-right: 40px;
+    transition: .5s;
 }
 
-.smallBtn{
-    padding-left: 40px;
-    padding-right: 40px;
-    background: transparent;
-    color: #000;
+.widerBtn:hover{
+    background-color: var(--primaryColor);
+    color: var(--teritaryColor)
 }
+
+
 .login__container{
     padding: 30px;
     border-radius: 10px;
@@ -63,7 +69,7 @@ form button{
     margin-top: 10px;
     padding: 6px;
     background-color: var(--teritaryColor);
-    color: #fff;
+    color: var(--textColor);
     border: none;
     border-radius: 5px;
     cursor: pointer;

@@ -6,7 +6,6 @@ const Login = () => {
       <div className="login__header">
         <h1>LIO</h1>
         <div className="login__btn__container">
-          <button className="smallBtn">Login</button>
           <button className="widerBtn">Sign up for free</button>
         </div>
       </div>
