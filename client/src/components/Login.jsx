@@ -11,12 +11,10 @@ const Login = () => {
       </div>
       <div className="main__container">
         <div className="login__container">
-            <h1>Sign In for LIO</h1>
+            <h1>Log In for LIO</h1>
             <h2>Write what you feel.</h2>
             <form>
-                <label>Username</label>
                 <input type="text" name="username" placeholder="Enter Username..." />
-                <label>Password</label>
                 <input type="password" name="password" placeholder="Enter Password..." />
                 <button>Log In</button>
             </form>

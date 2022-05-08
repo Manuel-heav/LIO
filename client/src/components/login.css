@@ -51,13 +51,32 @@
     border-radius: 10px;
 }
 h1{
-    text-align: center;
-    color: var(--primaryColor)
+    color: var(--primaryColor);
 }
-label, input{
+.login .login__container h1{
+    text-align: center;
+    font-size: 36px;
+    margin: 30px;
+}
+
+h2{
+    text-align: center;
+    color: var(--textSecondary)
+}
+
+input{
     display: block;
     margin: auto;
     margin-top: 10px;
+    background-color: transparent;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    color: var(--textColor)
+}
+
+input:focus{
+    outline: var(--primaryColor)
 }
 
 input{
