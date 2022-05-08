@@ -1,8 +1,9 @@
+
 .main__container{
     display: flex;
     align-items: center;
     justify-content: center;
-    height: 80vh;
+    height: 95vh;
 }
 
 .login__header{
@@ -65,31 +66,41 @@ h2{
 }
 
 input{
+    font-size: 18px;
+    width: 100%;
     display: block;
     margin: auto;
-    margin-top: 10px;
+    margin-top: 30px;
     background-color: transparent;
     border-top: none;
     border-left: none;
     border-right: none;
-    color: var(--textColor)
+    color: var(--textColor);
+    border-radius: 2px;
 }
 
 input:focus{
+    border-bottom-color: var(--primaryColor);
     outline: var(--primaryColor)
 }
 
 input{
-    padding: 6px;
+    padding: 10px;
 }
 
 form button{
-    width: 100%;
-    margin-top: 10px;
-    padding: 6px;
+    width: 108%;
+    margin-top: 40px;
+    padding: 10px;
     background-color: var(--teritaryColor);
     color: var(--textColor);
     border: none;
     border-radius: 5px;
     cursor: pointer;
+    transition: .5s;
+}
+
+form button:hover{
+    background-color: var(--primaryColor);
+    color: var(--teritaryColor)
 }

@@ -14,8 +14,8 @@ const Login = () => {
             <h1>Log In for LIO</h1>
             <h2>Write what you feel.</h2>
             <form>
-                <input type="text" name="username" placeholder="Enter Username..." />
-                <input type="password" name="password" placeholder="Enter Password..." />
+                <input type="text" name="username" placeholder="Username" />
+                <input type="password" name="password" placeholder="Password" />
                 <button>Log In</button>
             </form>
         </div>
