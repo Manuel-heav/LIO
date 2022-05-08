@@ -1,15 +1,18 @@
-.login{
+.main__container{
     display: flex;
     align-items: center;
     justify-content: center;
     height: 100vh;
-    background: #ccc;
+}
+
+.login__header{
+    display: flex;
+    justify-content: space-between;
 }
 
 .login__container{
     padding: 30px;
     background: #fff;
-    border: 1px solid chocolate;
     border-radius: 10px;
 }
 h1{
