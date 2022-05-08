@@ -21,15 +21,32 @@
 
 .login__btn__container button{
     margin-left: 30px;
+    font-size: 17px;
+    background-color: var(--teritaryColor);
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.widerBtn{
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
+.smallBtn{
+    padding-left: 40px;
+    padding-right: 40px;
+    background: transparent;
+    color: #000;
 }
 .login__container{
     padding: 30px;
-    background: #fff;
     border-radius: 10px;
 }
 h1{
     text-align: center;
-    color: chocolate
+    color: var(--primaryColor)
 }
 label, input{
     display: block;
@@ -41,11 +58,11 @@ input{
     padding: 6px;
 }
 
-button{
+form button{
     width: 100%;
     margin-top: 10px;
     padding: 6px;
-    background-color: chocolate;
+    background-color: var(--teritaryColor);
     color: #fff;
     border: none;
     border-radius: 5px;

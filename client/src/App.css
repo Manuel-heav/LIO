@@ -1,5 +1,15 @@
+:root{
+    --primaryColor: #66fcf1;
+    --secondarycolor: #0b0c10;
+    --teritaryColor: #1f2833;
+    --textColor:
+}
 *{
     margin: 0;
     padding: 0;
     font-family: 'Roboto', sans-serif;
+}
+
+body{
+    background-color: var(--secondarycolor);
 }
