@@ -8,8 +8,20 @@
 .login__header{
     display: flex;
     justify-content: space-between;
+    margin: 20px;
+
 }
 
+
+.login__btn__container{
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.login__btn__container button{
+    margin-left: 30px;
+}
 .login__container{
     padding: 30px;
     background: #fff;
