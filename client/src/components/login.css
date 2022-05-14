@@ -9,8 +9,7 @@
 .login__header{
     display: flex;
     justify-content: space-between;
-    margin: 20px;
-
+    margin: 30px;
 }
 
 
@@ -105,4 +104,18 @@ form button{
 form button:hover{
     background-color: var(--primaryColor);
     color: var(--teritaryColor)
+}
+
+
+@media screen and (max-width: 460px){
+    .login__container{
+        border: none;
+    }
+    .login .login__container h1{
+        font-size: 25px;
+    }
+    .login__header{
+        margin: 20px;
+    }
+    
 }
