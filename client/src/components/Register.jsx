@@ -1,12 +1,13 @@
 import React from 'react'
 import './login.css'
+import { Link } from 'react-router-dom'
 const Login = () => {
   return (
     <div className="login">
       <div className="login__header">
         <h1>LIO</h1>
         <div className="login__btn__container">
-          <button className="widerBtn">Log In</button>
+         <button className="widerBtn"><Link to="/login"> Log In</Link></button>
         </div>
       </div>
       <div className="main__container">

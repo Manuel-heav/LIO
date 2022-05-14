@@ -1,4 +1,7 @@
-
+a{
+    color: inherit;
+    text-decoration: none;
+}
 .main__container{
     display: flex;
     align-items: center;
