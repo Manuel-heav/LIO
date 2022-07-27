@@ -1,0 +1,19 @@
+.header{
+    background: var(--secondaryColor);
+    height: 65px;
+}
+
+.header__wrapper{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 90%;
+    margin: auto;
+}
+
+.header__wrapper > *{
+    margin-top: 10px;
+}
+.header__search__icon{
+    color: #fff;
+}
