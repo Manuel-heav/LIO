@@ -20,14 +20,41 @@
 
 .header__search__container{
     background: transparent;
-    border: 1px solid var(--primaryColor);
+    border: 1px solid gray;
     padding: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 5px;
+}
+
+.header__left__wrapper{
     display: flex;
     align-items: center;
     justify-content: center;
 }
 
+.header__left__wrapper .header__search__container{
+    margin-left: 50px;
+}
+
 .header__search__container input{
+    width: 300px;
     background: transparent;
     border: none;
+    color: gray;
+}
+.header__search__container input:focus{
+    outline: none;
+}
+
+.header__account__container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.header__account__container p{
+    margin-left: 10px;
 }
