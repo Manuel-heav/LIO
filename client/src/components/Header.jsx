@@ -8,8 +8,8 @@ const Header = () => {
         <div className="header__wrapper">
           <h1>Lio</h1>
           <div className="header__search__container">
+            <input type="text" placeholder="Search..." />
             <SearchIcon fontSize='small'/>
-            <input type="text" />
           </div>
           <AccountCircleIcon />
         </div>     

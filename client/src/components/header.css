@@ -17,3 +17,17 @@
 .header__search__icon{
     color: #fff;
 }
+
+.header__search__container{
+    background: transparent;
+    border: 1px solid var(--primaryColor);
+    padding: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.header__search__container input{
+    background: transparent;
+    border: none;
+}
