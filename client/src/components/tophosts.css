@@ -3,5 +3,21 @@
     margin-top: 50px;
     padding: 30px;
     border-radius: 10px;
-    max-height: 70vh;
+    max-height: 50vh;
+}
+
+button{
+        padding: 8px 20px 8px 20px;
+        background-color: var(--teritaryColor);
+        color: #fff;
+        border-radius: 6px;
+        cursor: pointer;
+    }
+
+p{
+    color: var(--textColor)
+}
+
+h2{
+    margin-bottom: 20px;
 }
