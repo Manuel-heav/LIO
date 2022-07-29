@@ -1,13 +1,21 @@
 .card{
     margin-top: 50px;
-    width: 90%;
+    width: 85%;
     margin-left: auto;
     margin-right: auto;
     background-color: var(--secondaryColor);
-    padding: 15px;
+    padding: 25px;
     border-radius: 10px;
 }
 
+.card p{
+    color: var(--textColor);
+}
+hr{
+    height: 1px;
+    background-color: var(--textColor);
+    border: none;
+}
 .card__top__container{
     display: flex;
     justify-content: space-between;
@@ -32,7 +40,7 @@
 
 .card__main p{
     margin-bottom: 20px;
-    line-height: 1.6em;
+    line-height: 2em;
 }
 .card__bottom__container{
     display: flex;
