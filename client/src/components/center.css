@@ -3,7 +3,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    width: 80%;
+    width: 90%;
     margin-left: auto;
     margin-right: auto;
 }
@@ -18,4 +18,8 @@
 
 .center__top__wrapper button:hover{
     opacity: 0.8;
+}
+
+.left__wrapper p{
+    color: var(--textColor)
 }

@@ -1,4 +1,5 @@
 import React from 'react'
+import Card from './Card'
 import "./center.css"
 const Center = () => {
   return (
@@ -8,7 +9,20 @@ const Center = () => {
           <h2>ROOMS</h2>
           <p>600 Rooms available</p>
         </div>
-        <button>Create Room</button>
+        <button>+ Create Room</button>
+      </div>
+
+      <div className="center__card__container">
+        <Card />
+        <Card />
+        <Card />
+        <Card />
+        <Card />
+        <Card />
+        <Card />
+        <Card />
+        <Card />
+        <Card />
       </div>
     </div>
   )

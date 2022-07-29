@@ -1,0 +1,41 @@
+.card{
+    margin-top: 50px;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: var(--secondaryColor);
+    padding: 15px;
+    border-radius: 10px;
+}
+
+.card__top__container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+
+.card__top__left{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card__top__left p{
+    margin-left: 10px;
+}
+
+.card__main h2{
+    margin-bottom: 20px;
+}
+
+.card__main p{
+    margin-bottom: 20px;
+    line-height: 1.6em;
+}
+.card__bottom__container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
