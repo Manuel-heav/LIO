@@ -14,6 +14,7 @@
 .header__wrapper > *{
     margin-top: 10px;
 }
+
 .header__search__icon{
     color: #fff;
 }
@@ -32,6 +33,17 @@
     display: flex;
     align-items: center;
     justify-content: center;
+}
+.header__left__wrapper h2{
+    margin-left: 30px;
+    font-size: 15px;
+    font-weight: 500;
+    cursor:  pointer;
+    transition: 0.3s;
+}
+
+.header__left__wrapper h2:hover{
+    color: var(--teritaryColor);
 }
 
 .header__left__wrapper .header__search__container{
