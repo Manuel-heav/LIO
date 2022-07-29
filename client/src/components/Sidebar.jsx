@@ -17,6 +17,14 @@ const Sidebar = () => {
             <h3>331</h3>
         </div>
         <div className="sidebar__issue__container">
+            <p>Family</p>
+            <h3>230</h3>
+        </div>
+        <div className="sidebar__issue__container">
+            <p>Sex</p>
+            <h3>990</h3>
+        </div>
+        <div className="sidebar__issue__container">
             <p>LGBTQ+</p>
             <h3>145</h3>
         </div>
@@ -28,17 +36,13 @@ const Sidebar = () => {
             <p>Job</p>
             <h3>12</h3>
         </div>
-        <div className="sidebar__issue__container">
-            <p>Family</p>
-            <h3>230</h3>
-        </div>
-        <div className="sidebar__issue__container">
-            <p>Sex</p>
-            <h3>990</h3>
-        </div>
+       
         <div className="sidebar__issue__container">
             <p>Health</p>
             <h3>23</h3>
+        </div>
+        <div className="sidebar__issue__container">
+            <p style={{margin: "auto", color:"#6164FF" }}>More</p>
         </div>
     </div>
   )

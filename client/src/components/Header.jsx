@@ -12,9 +12,12 @@ const Header = () => {
               <input type="text" placeholder="Search..." />
               <SearchIcon fontSize='small'/>
             </div>
+            <h2>Dashboard</h2>
+            <h2>About</h2>
+            <h2>Contact</h2>
           </div>
           <div className="header__account__container">
-           <AccountCircleIcon fontSize='large' />
+           <AccountCircleIcon fontSize='large' className="header__account__icon" />
             <p>Login</p>
           </div>
         </div>     

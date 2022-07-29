@@ -12,6 +12,19 @@
 .sidebar__issue__container{
     display: flex;
     padding-bottom: 10px;
+    align-items: center;
     justify-content: space-between;
     margin-top: 22px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.sidebar__issue__container:hover{
+    transform: scale(1.09);
+}   
+
+.sidebar__issue__container h3{
+    background-color: var(--teritaryColor);
+    padding:5px;
+    border-radius: 5px;
 }
