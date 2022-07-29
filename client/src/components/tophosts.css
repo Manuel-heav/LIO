@@ -1,0 +1,7 @@
+.tophosts{
+    background-color: var(--secondaryColor);
+    margin-top: 50px;
+    padding: 30px;
+    border-radius: 10px;
+    max-height: 70vh;
+}
