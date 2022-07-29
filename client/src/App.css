@@ -12,3 +12,11 @@ body{
     background-color: var(--primaryColor) ;
     color: #fff;
 }
+
+.app__main__container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 90%;
+    margin: auto;
+}

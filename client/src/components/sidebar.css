@@ -1,0 +1,17 @@
+.sidebar{
+    background-color: var(--secondaryColor);
+    margin-top: 50px;
+    padding: 30px;
+    border-radius: 10px;
+}
+
+.sidebar h2{
+    /* background-color: var(--teritaryColor); */
+    /* border-bottom: 1px solid var(--teritaryColor); */
+}
+.sidebar__issue__container{
+    display: flex;
+    padding-bottom: 10px;
+    justify-content: space-between;
+    margin-top: 22px;
+}
