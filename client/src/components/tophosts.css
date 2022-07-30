@@ -12,12 +12,19 @@ button{
         color: #fff;
         border-radius: 6px;
         cursor: pointer;
+        border: none;
     }
 
 p{
     color: var(--textColor)
 }
 
-h2{
+.tophosts h2 {
     margin-bottom: 20px;
+}
+
+@media only screen and (max-width: 760px) {
+   .tophosts{
+    display: none;
+   }
 }

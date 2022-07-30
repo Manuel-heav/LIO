@@ -8,49 +8,49 @@ const TopHosts = () => {
             <div className="card__top__container">
             <div className="card__top__left">
                 <AccountCircleIcon fontSize='large' className="card__account__icon" />
-                <p>Manuel Heav</p>
+                <p>John Doe</p>
             </div>
             <button>Follow</button>
             </div>
             <div className="card__top__container">
             <div className="card__top__left">
                 <AccountCircleIcon fontSize='large' className="card__account__icon" />
-                <p>Manuel Heav</p>
+                <p>Jane Doe</p>
             </div>
             <button>Follow</button>
             </div>
             <div className="card__top__container">
             <div className="card__top__left">
                 <AccountCircleIcon fontSize='large' className="card__account__icon" />
-                <p>Manuel Heav</p>
+                <p>Rick Grimes</p>
             </div>
             <button>Follow</button>
             </div>
             <div className="card__top__container">
             <div className="card__top__left">
                 <AccountCircleIcon fontSize='large' className="card__account__icon" />
-                <p>Manuel Heav</p>
+                <p>Otis Milburn</p>
             </div>
             <button>Follow</button>
             </div>
             <div className="card__top__container">
             <div className="card__top__left">
                 <AccountCircleIcon fontSize='large' className="card__account__icon" />
-                <p>Manuel Heav</p>
+                <p>Dwayne Johnson</p>
             </div>
             <button>Follow</button>
             </div>
             <div className="card__top__container">
             <div className="card__top__left">
                 <AccountCircleIcon fontSize='large' className="card__account__icon" />
-                <p>Manuel Heav</p>
+                <p>Kevin Hart</p>
             </div>
             <button>Follow</button>
             </div>
             <div className="card__top__container">
             <div className="card__top__left">
                 <AccountCircleIcon fontSize='large' className="card__account__icon" />
-                <p>Manuel Heav</p>
+                <p>The Lumineers</p>
             </div>
             <button>Follow</button>
             </div>

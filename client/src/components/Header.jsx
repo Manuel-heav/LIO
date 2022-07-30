@@ -17,7 +17,7 @@ const Header = () => {
             <h2>Contact</h2>
           </div>
           <div className="header__account__container">
-           <AccountCircleIcon fontSize='large' className="header__account__icon" />
+            <button>Join</button>
             <p>Login</p>
           </div>
         </div>     
