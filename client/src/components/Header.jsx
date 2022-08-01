@@ -1,7 +1,6 @@
 import React from 'react'
 import './header.css'
 import SearchIcon from '@mui/icons-material/Search';
-import AccountCircleIcon from '@mui/icons-material/AccountCircle';
 import { Link } from 'react-router-dom';
 const Header = () => {
   return (
