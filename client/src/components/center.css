@@ -13,7 +13,7 @@
     background-color: var(--teritaryColor);
     color: #fff;
     border-radius: 6px;
-    cursor: pointer;
+    cursor: pointer
 }
 
 .center__top__wrapper button:hover{
