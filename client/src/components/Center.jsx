@@ -1,6 +1,6 @@
-import React from 'react'
-import Card from './Card'
-import "./center.css"
+import React from 'react';
+import Card from './Card';
+import "./center.css";
 const Center = () => {
   return (
     <div className="center">  
