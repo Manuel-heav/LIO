@@ -6,6 +6,7 @@ import Header from '@/components/shared/Header'
 import LeftSide from '@/components/shared/LeftSide'
 import RightSide from '@/components/shared/RightSide'
 import Footer from '@/components/shared/Footer'
+import BottomMobile from '@/components/shared/BottomMobile'
 
 
 const inter = Inter({ subsets: ['latin'] })
@@ -37,7 +38,7 @@ export default function RootLayout({
           <RightSide />
         </main>
 
-        <Footer />
+        <BottomMobile />
       </body>
     </html>
     </ClerkProvider>

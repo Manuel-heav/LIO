@@ -1,6 +1,6 @@
 import Image from "next/image";
 import Link from "next/link";
-import { dark } from "@clerk/themes";
+import { shadesOfPurple } from "@clerk/themes";
 import { CgLogOut } from "react-icons/cg";
 import { OrganizationSwitcher, SignedIn, SignOutButton } from "@clerk/nextjs";
 
@@ -15,19 +15,10 @@ function Header() {
       <h1 className='text-xl'>LIO</h1>
         </Link> 
         <div className='flex items-center gap-1'>
-        <div className='block md:hidden'>
-          <SignedIn>
-            <SignOutButton>
-              <div className='flex cursor-pointer'>
-                <CgLogOut className="md:text-2xl" />
-              </div>
-            </SignOutButton>
-          </SignedIn>
-        </div>
 
         <OrganizationSwitcher
           appearance={{
-            baseTheme: dark,
+            baseTheme: shadesOfPurple,
             elements: {
               organizationSwitcherTrigger: "py-2 px-4",
             },

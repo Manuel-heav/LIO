@@ -1,22 +1,14 @@
-"use client"
-
-import Link from "next/link";
+import { BsPersonFill } from "react-icons/bs"
 import { TiHome, TiBrush, TiHeartHalfOutline } from "react-icons/ti";
 import { AiOutlineSearch } from "react-icons/ai";
 import { FaPerson, FaPeopleGroup } from "react-icons/fa6";
-import { BsPersonFill } from "react-icons/bs";
+import Link from "next/link";
 
-import { SignOutButton, SignedIn } from "@clerk/nextjs";
-import { CgLogOut } from "react-icons/cg";
-import { useRouter } from "next/navigation";
-
-function LeftSide() {
-
-    const router = useRouter();
-    return (
-    <section className="hidden md:flex custom-scrollbar sticky left-0 top-0 z-20 h-screen w-fit flex-col justify-between overflow-auto bg-dark-2 pb-5 pt-28 max-md:hidden; bg-[#112240]">
-        <div className="flex w-full flex-1 flex-col gap-6 px-6">
-            <Link 
+function BottomMobile() {
+return (
+    <div className="fixed bottom-0 z-10 w-full rounded-t-3xl bg-glassmorphism p-4 backdrop-blur-lg xs:px-7 md:hidden custom-scrollbar">
+        <div className="flex items-center justify-between xs:gap-3">
+        <Link 
             href="/"
             key="home"
             className="relative flex items-center justify-start gap-4 rounded-lg hover:bg-sky-700 p-4"
@@ -70,20 +62,9 @@ function LeftSide() {
                 <p className="text-light-1 max-lg:hidden">Me</p>
             </Link>
 
-
-            <div className='mt-10 px-6'>
-        <SignedIn>
-          <SignOutButton signOutCallback={() => router.push("/sign-in")}>
-            <div className='flex cursor-pointer gap-4'>
-            <CgLogOut className="text-2xl" />
-              <p className='text-light-2 max-lg:hidden'>Logout</p>
-            </div>
-          </SignOutButton>
-        </SignedIn>
-      </div>
         </div>
-    </section>
-    )
-    }
-    
-export default LeftSide;
+    </div>
+)
+}
+
+export default BottomMobile
