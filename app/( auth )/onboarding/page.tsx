@@ -18,7 +18,7 @@ async function Page() {
     }
     return(
         <main className="mx-auto flex max-w-5xl flex-col justify-start  py-20 bg-[#09182f]">
-            <h1 className='text-4xl'>Onboarding</h1>
+            <h1 className='text-4xl'>Finish Setting Up Your Account</h1>
             <p className="mt-5 text-base-regular text-light-2">
                Complete your profile to use LIO 
             </p>

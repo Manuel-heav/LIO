@@ -25,6 +25,7 @@ import { userValidation } from "@/lib/validations/user";
 import * as z from "zod"
 import Image from "next/image";
 import { ChangeEvent, useState } from "react";
+import { isBase64Image } from "@/lib/utils";
 
 interface Props{
     user: {
@@ -74,13 +75,15 @@ const AccountProfile = ({user , btnTitle}) => {
    }
 
    function onSubmit(values: z.infer<typeof userValidation>) {
-    console.log(values)
+    const blob = values.profile_photo;
+
+    const hasImageChanged = isBase64Image(blob);
   }
     return(
         <Form {...form}>
         <form onSubmit={form.handleSubmit(onSubmit)} className="flex flex-col justify-start gap-10">
           <FormField 
-            control={form.control}
+            c trol={form.control}
             name="profile_photo"
             render={({ field }) => (
               <FormItem className="flex items-center gap-4">
