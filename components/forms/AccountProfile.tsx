@@ -27,6 +27,8 @@ import Image from "next/image";
 import { ChangeEvent, useState } from "react";
 import { isBase64Image } from "@/lib/utils";
 
+import { useUploadThing } from '@/lib/uploadthing'
+
 interface Props{
     user: {
         id: string,
@@ -41,6 +43,8 @@ interface Props{
 
 const AccountProfile = ({user , btnTitle}) => {
   const [files, setFiles] = useState<File[]>([])
+
+  const { startUpload } = useUploadThing("media")
    const form = useForm({
     resolver: zodResolver(userValidation),
     defaultValues:{
@@ -74,16 +78,23 @@ const AccountProfile = ({user , btnTitle}) => {
     }
    }
 
-   function onSubmit(values: z.infer<typeof userValidation>) {
+   const onSubmit = async (values: z.infer<typeof userValidation>) => {
     const blob = values.profile_photo;
 
     const hasImageChanged = isBase64Image(blob);
+    if (hasImageChanged) {
+      const imgRes = await startUpload(files);
+
+      if (imgRes && imgRes[0].fileUrl) {
+        values.profile_photo = imgRes[0].fileUrl;
+      }
+    }
   }
     return(
         <Form {...form}>
         <form onSubmit={form.handleSubmit(onSubmit)} className="flex flex-col justify-start gap-10">
           <FormField 
-            c trol={form.control}
+            control={form.control}
             name="profile_photo"
             render={({ field }) => (
               <FormItem className="flex items-center gap-4">
